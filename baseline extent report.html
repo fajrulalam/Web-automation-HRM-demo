@@ -1,0 +1,3095 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Automation Test Report</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Tiket.com Test Automation</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Friday, January 30, 2026, 09:44 am (WIB)</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">com.test.tests.PimTest</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag="com.test.tests.PimTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">addEmployeeAndVerifyInList</p>
+            <p class="text-sm">
+              <span>09.44.47</span> / <span>00:00:47:372</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">addEmployeeAndVerifyInList</h5>
+<span class='badge badge-success'>01.30.2026 09.44.47</span>
+<span class='badge badge-danger'>01.30.2026 09.45.34</span>
+<span class='badge badge-default'>00:00:47:372</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">com.test.tests.PimTest</span></div>
+<div class="m-t-10 m-l-5">Add new employee with random name and verify in employee list</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.44.47</td>
+        <td>
+          Test execution started
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>09.45.26</td>
+        <td>
+          <span class='badge white-text green'>TEST PASSED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+  <div class="mt-4">  <div class="accordion" role="tablist">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:08:812</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="2"><span>Login to the application</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">com.test.tests.PimTest</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.44.53</td>
+        <td>
+          Wait for present: LOGO (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.44.55</td>
+        <td>
+          Send keys 'Admin' to: USERNAME_INPUT
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.44.55</td>
+        <td>
+          Wait for visible: USERNAME_INPUT (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.44.55</td>
+        <td>
+          Send keys 'admin123' to: PASSWORD_INPUT
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.44.55</td>
+        <td>
+          Wait for visible: PASSWORD_INPUT (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.44.55</td>
+        <td>
+          Click on: LOGIN_BUTTON
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.44.55</td>
+        <td>
+          Wait for clickable: LOGIN_BUTTON (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.44.55</td>
+        <td>
+          Wait for present: DASHBOARD_HEADER (max 30s)
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:02:071</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="3"><span>Navigate to PIM page</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">com.test.tests.PimTest</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.44.58</td>
+        <td>
+          Click on: PIM
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.44.58</td>
+        <td>
+          Wait for clickable: PIM (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.00</td>
+        <td>
+          Wait for visible: ADD_EMPLOYEE (max 30s)
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:01:621</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="4"><span>Click Add Employee and fill in random name</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">com.test.tests.PimTest</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.01</td>
+        <td>
+          Click on: ADD_EMPLOYEE
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.01</td>
+        <td>
+          Wait for clickable: ADD_EMPLOYEE (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.03</td>
+        <td>
+          Wait for clickable: FIRST_NAME_INPUT (max 30s)
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:02:654</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="5"><span>Set UUID and generate random full name</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">com.test.tests.PimTest</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.03</td>
+        <td>
+          Setting UUID Employee ID: affeba19e
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.03</td>
+        <td>
+          Wait for visible: EMPLOYEE_ID_INPUT (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.03</td>
+        <td>
+          Wait for clickable: EMPLOYEE_ID_INPUT (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.04</td>
+        <td>
+          Current Employee ID before clear: 0385
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.05</td>
+        <td>
+          Employee ID field now contains: affeba19e
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.05</td>
+        <td>
+          Send keys 'Michael' to: FIRST_NAME_INPUT
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.05</td>
+        <td>
+          Wait for visible: FIRST_NAME_INPUT (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.05</td>
+        <td>
+          Send keys 'Ray' to: MIDDLE_NAME_INPUT
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.05</td>
+        <td>
+          Wait for visible: MIDDLE_NAME_INPUT (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.05</td>
+        <td>
+          Send keys 'Jones' to: LAST_NAME_INPUT
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.05</td>
+        <td>
+          Wait for visible: LAST_NAME_INPUT (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.05</td>
+        <td>
+          Uploading image: /Users/fajmac/IdeaProjects/Take Home Assessement Compare Club/src/main/resources/placeholder_image_female.jpg
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.05</td>
+        <td>
+          Wait for network idle (1000ms)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.06</td>
+        <td>
+          Image file input has value: C:\fakepath\placeholder_image_female.jpg
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.06</td>
+        <td>
+          Image upload verified successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.06</td>
+        <td>
+          Generated Name: Michael Ray Jones
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:06:797</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="6"><span>Save the employee</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">com.test.tests.PimTest</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.06</td>
+        <td>
+          === Save attempt 1 of 10 ===
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.06</td>
+        <td>
+          Current Employee ID: affeba19e
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.06</td>
+        <td>
+          Click on: SAVE_BUTTON
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.06</td>
+        <td>
+          Wait for clickable: SAVE_BUTTON (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.06</td>
+        <td>
+          Wait for network idle (2000ms)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.13</td>
+        <td>
+          SUCCESS! Employee saved with ID: affeba19e
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.13</td>
+        <td>
+          Final Employee ID: affeba19e
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.13</td>
+        <td>
+          Wait for visible: PERSONAL_DETAILS_HEADER (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.13</td>
+        <td>
+          Wait for visible: EMPLOYEE_FULL_NAME_LABEL (max 90s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.13</td>
+        <td>
+          Wait for network idle (2000ms)
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:00:144</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="7"><span>Verify employee name on Personal Details page</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">com.test.tests.PimTest</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.15</td>
+        <td>
+          Get text from: EMPLOYEE_NAME
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.15</td>
+        <td>
+          Wait for visible: EMPLOYEE_NAME (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.15</td>
+        <td>
+          Get attribute 'value' from: FIRST_NAME_INPUT
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.15</td>
+        <td>
+          Wait for present: FIRST_NAME_INPUT (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.15</td>
+        <td>
+          Get attribute 'value' from: MIDDLE_NAME_INPUT
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.15</td>
+        <td>
+          Wait for present: MIDDLE_NAME_INPUT (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.15</td>
+        <td>
+          Get attribute 'value' from: LAST_NAME_INPUT
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.15</td>
+        <td>
+          Wait for present: LAST_NAME_INPUT (max 30s)
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:02:844</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="8"><span>Navigate to Employee List and search by Employee ID</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">com.test.tests.PimTest</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.15</td>
+        <td>
+          Click on: EMPLOYEE_LIST
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.15</td>
+        <td>
+          Wait for clickable: EMPLOYEE_LIST (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.16</td>
+        <td>
+          Wait for visible: EMPLOYEE_INFORMATION_HEADER (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.17</td>
+        <td>
+          Wait for visible: EMPLOYEE_ID_SEARCH_INPUT (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.17</td>
+        <td>
+          Entered Employee ID for search: affeba19e
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.17</td>
+        <td>
+          Click on: SEARCH_BUTTON
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.17</td>
+        <td>
+          Wait for clickable: SEARCH_BUTTON (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.17</td>
+        <td>
+          Wait for visible: THE_SEARCHED_ROW (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.18</td>
+        <td>
+          Wait for visible: TABLE_ROW (max 30s)
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:03:107</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="9"><span>Verify employee appears in search results</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">com.test.tests.PimTest</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.18</td>
+        <td>
+          Wait for network idle (1000ms)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.19</td>
+        <td>
+          Wait for network idle (500ms)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.19</td>
+        <td>
+          Wait for network idle (500ms)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.20</td>
+        <td>
+          Wait for network idle (500ms)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.20</td>
+        <td>
+          Wait for network idle (500ms)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.21</td>
+        <td>
+          Wait for network idle (500ms)
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:04:431</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="10"><span>Verify employee via API</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">com.test.tests.PimTest</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.22</td>
+        <td>
+          Calling API to verify employee data...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.22</td>
+        <td>
+          === API Request ===
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.22</td>
+        <td>
+          CURL: curl --location 'https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees?limit=50&offset=0&model=detailed&employeeId=affeba19e&includeEmployees=onlyCurrent&sortField=employee.firstName&sortOrder=ASC' \
+--header 'Accept: application/json' \
+--header 'Cookie: orangehrm=dsosmn75dhnka9l9svg5gn75gn'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.25</td>
+        <td>
+          API Response Status: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.25</td>
+        <td>
+          API Response Body: {"data":[{"empNumber":188,"lastName":"Jones","firstName":"Michael","middleName":"Ray","employeeId":"affeba19e","terminationId":null,"jobTitle":{"id":null,"title":null,"isDeleted":null},"subunit":{"id":null,"name":null},"empStatus":{"id":null,"name":null},"supervisors":[]}],"meta":{"total":1},"rels":[]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.26</td>
+        <td>
+          === Verifying Employee via API ===
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.26</td>
+        <td>
+            Employee ID: affeba19e (expected: affeba19e) - ✓
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.26</td>
+        <td>
+            First Name: Michael (expected: Michael) - ✓
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.26</td>
+        <td>
+            Middle Name: Ray (expected: Ray) - ✓
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.26</td>
+        <td>
+            Last Name: Jones (expected: Jones) - ✓
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:07:957</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="11"><span>Employee successfully added and verified via UI and API</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">com.test.tests.PimTest</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.34</td>
+        <td>
+          Using Employee ID from previous test: affeba19e
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="12"
+          author=""
+          tag="com.test.tests.PimTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">editEmployeeAndVerifyInList</p>
+            <p class="text-sm">
+              <span>09.45.34</span> / <span>00:01:07:832</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">editEmployeeAndVerifyInList</h5>
+<span class='badge badge-success'>01.30.2026 09.45.34</span>
+<span class='badge badge-danger'>01.30.2026 09.46.42</span>
+<span class='badge badge-default'>00:01:07:832</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">com.test.tests.PimTest</span></div>
+<div class="m-t-10 m-l-5">Edit employee details and verify in employee list</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.34</td>
+        <td>
+          Test execution started
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>09.46.35</td>
+        <td>
+          <span class='badge white-text green'>TEST PASSED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+  <div class="mt-4">  <div class="accordion" role="tablist">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:14:697</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="13"><span>Check login status and navigate to Employee List</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">com.test.tests.PimTest</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.41</td>
+        <td>
+          Wait for present: LOGO (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.42</td>
+        <td>
+          Send keys 'Admin' to: USERNAME_INPUT
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.42</td>
+        <td>
+          Wait for visible: USERNAME_INPUT (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.42</td>
+        <td>
+          Send keys 'admin123' to: PASSWORD_INPUT
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.42</td>
+        <td>
+          Wait for visible: PASSWORD_INPUT (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.42</td>
+        <td>
+          Click on: LOGIN_BUTTON
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.42</td>
+        <td>
+          Wait for clickable: LOGIN_BUTTON (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.42</td>
+        <td>
+          Wait for present: DASHBOARD_HEADER (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.49</td>
+        <td>
+          Wait for visible: EMPLOYEE_INFORMATION_HEADER (max 30s)
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:04:344</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="14"><span>Search for employee by ID and click Edit</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">com.test.tests.PimTest</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.50</td>
+        <td>
+          Wait for visible: EMPLOYEE_ID_SEARCH_INPUT (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.51</td>
+        <td>
+          Entered Employee ID for search: affeba19e
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.51</td>
+        <td>
+          Click on: SEARCH_BUTTON
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.51</td>
+        <td>
+          Wait for clickable: SEARCH_BUTTON (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.51</td>
+        <td>
+          Wait for visible: THE_SEARCHED_ROW (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.52</td>
+        <td>
+          Wait for visible: TABLE_ROW (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.52</td>
+        <td>
+          Click on: EDIT_BUTTON
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.52</td>
+        <td>
+          Wait for clickable: EDIT_BUTTON (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.53</td>
+        <td>
+          Wait for visible: PERSONAL_DETAILS_HEADER (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.54</td>
+        <td>
+          Wait for visible: EMPLOYEE_FULL_NAME_LABEL (max 90s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.54</td>
+        <td>
+          Wait for network idle (2000ms)
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:04:327</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="15"><span>Edit Personal Details</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">com.test.tests.PimTest</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.56</td>
+        <td>
+          Type 'OTH-001' into: OTHER_ID_INPUT
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.56</td>
+        <td>
+          Wait for visible: OTHER_ID_INPUT (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.56</td>
+        <td>
+          Type 'LIC-12345' into: LICENSE_NUMBER_INPUT
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.56</td>
+        <td>
+          Wait for visible: LICENSE_NUMBER_INPUT (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.57</td>
+        <td>
+          Type date '2029-30-01' into: LICENSE_EXPIRY_DATE_INPUT
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.57</td>
+        <td>
+          Wait for visible: LICENSE_EXPIRY_DATE_INPUT (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.58</td>
+        <td>
+          Click on: NATIONALITY_DROPDOWN
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.58</td>
+        <td>
+          Wait for clickable: NATIONALITY_DROPDOWN (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.58</td>
+        <td>
+          Wait for visible: DROPDOWN_OPTION_SECOND (max 5s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.58</td>
+        <td>
+          Click on: DROPDOWN_OPTION_SECOND
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.58</td>
+        <td>
+          Wait for clickable: DROPDOWN_OPTION_SECOND (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.58</td>
+        <td>
+          Click on: MARITAL_STATUS_DROPDOWN
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.58</td>
+        <td>
+          Wait for clickable: MARITAL_STATUS_DROPDOWN (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.58</td>
+        <td>
+          Wait for visible: SINGLE_OPTION (max 5s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.58</td>
+        <td>
+          Click on: SINGLE_OPTION
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.58</td>
+        <td>
+          Wait for clickable: SINGLE_OPTION (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.59</td>
+        <td>
+          Click on: FEMALE_RADIO
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.59</td>
+        <td>
+          Wait for clickable: FEMALE_RADIO (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.59</td>
+        <td>
+          Type date '2005-30-01' into: DATE_OF_BIRTH_INPUT
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.59</td>
+        <td>
+          Wait for visible: DATE_OF_BIRTH_INPUT (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.59</td>
+        <td>
+          Click on: SAVE_BUTTON
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.59</td>
+        <td>
+          Wait for clickable: SAVE_BUTTON (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.45.59</td>
+        <td>
+          Wait for visible: SUCCESS_TOAST (max 10s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.01</td>
+        <td>
+          Other ID: OTH-001
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.01</td>
+        <td>
+          License Number: LIC-12345
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.01</td>
+        <td>
+          Gender: Female
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:13:898</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="16"><span>Edit Job Details</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">com.test.tests.PimTest</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.01</td>
+        <td>
+          Click on: JOB_TAB
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.01</td>
+        <td>
+          Wait for clickable: JOB_TAB (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.04</td>
+        <td>
+          Wait for visible: JOB_TITLE_DROPDOWN (max 10s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.05</td>
+        <td>
+          Click on: JOB_TITLE_DROPDOWN
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.05</td>
+        <td>
+          Wait for clickable: JOB_TITLE_DROPDOWN (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.06</td>
+        <td>
+          ElementClickInterceptedException on: JOB_TITLE_DROPDOWN - By.xpath: //div[label[text()='Job Title']]/following-sibling::div//div[@class='oxd-select-text-input']
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.06</td>
+        <td>
+          Retry 1 for JOB_TITLE_DROPDOWN - waiting 5s
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.11</td>
+        <td>
+          Wait for clickable: JOB_TITLE_DROPDOWN (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.11</td>
+        <td>
+          Wait for visible: QA_ENGINEER_OPTION (max 10s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.11</td>
+        <td>
+          Click on: QA_ENGINEER_OPTION
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.11</td>
+        <td>
+          Wait for clickable: QA_ENGINEER_OPTION (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.11</td>
+        <td>
+          Click on: JOB_CATEGORY_DROPDOWN
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.11</td>
+        <td>
+          Wait for clickable: JOB_CATEGORY_DROPDOWN (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.11</td>
+        <td>
+          Wait for visible: DROPDOWN_OPTION_SECOND (max 5s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.11</td>
+        <td>
+          Click on: DROPDOWN_OPTION_SECOND
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.11</td>
+        <td>
+          Wait for clickable: DROPDOWN_OPTION_SECOND (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.11</td>
+        <td>
+          Click on: SUB_UNIT_DROPDOWN
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.11</td>
+        <td>
+          Wait for clickable: SUB_UNIT_DROPDOWN (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.11</td>
+        <td>
+          Wait for visible: QA_SUBUNIT_OPTION (max 5s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.11</td>
+        <td>
+          Click on: QA_SUBUNIT_OPTION
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.11</td>
+        <td>
+          Wait for clickable: QA_SUBUNIT_OPTION (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.11</td>
+        <td>
+          Click on: EMPLOYMENT_STATUS_DROPDOWN
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.11</td>
+        <td>
+          Wait for clickable: EMPLOYMENT_STATUS_DROPDOWN (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.11</td>
+        <td>
+          Wait for visible: DROPDOWN_OPTION_SECOND (max 5s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.12</td>
+        <td>
+          Click on: DROPDOWN_OPTION_SECOND
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.12</td>
+        <td>
+          Wait for clickable: DROPDOWN_OPTION_SECOND (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.12</td>
+        <td>
+          Click on: SAVE_BUTTON
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.12</td>
+        <td>
+          Wait for clickable: SAVE_BUTTON (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.12</td>
+        <td>
+          Wait for visible: SUCCESS_TOAST (max 10s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.14</td>
+        <td>
+          Job Title: QA Engineer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.14</td>
+        <td>
+          Sub Unit: Quality Assurance
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:15:844</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="17"><span>Add Supervisor</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">com.test.tests.PimTest</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.14</td>
+        <td>
+          Click on: REPORT_TO_TAB
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.14</td>
+        <td>
+          Wait for clickable: REPORT_TO_TAB (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.16</td>
+        <td>
+          Wait for visible: ASSIGNED_SUPERVISORS_HEADER (max 10s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.16</td>
+        <td>
+          Click on: ADD_SUPERVISOR_BUTTON
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.16</td>
+        <td>
+          Wait for clickable: ADD_SUPERVISOR_BUTTON (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.17</td>
+        <td>
+          Wait for visible: SUPERVISOR_NAME_INPUT (max 5s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.17</td>
+        <td>
+          Send keys 'e' to: SUPERVISOR_NAME_INPUT
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.17</td>
+        <td>
+          Wait for visible: SUPERVISOR_NAME_INPUT (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.17</td>
+        <td>
+          Waiting for autocomplete to load results for: e
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.17</td>
+        <td>
+          Wait for network idle (1000ms)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.18</td>
+        <td>
+          Autocomplete still loading... (1s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.18</td>
+        <td>
+          Wait for network idle (1000ms)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.29</td>
+        <td>
+          Found autocomplete option containing: e
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.29</td>
+        <td>
+          Click on: AUTOCOMPLETE_OPTION_WITH_VALUE
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.29</td>
+        <td>
+          Wait for clickable: AUTOCOMPLETE_OPTION_WITH_VALUE (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.29</td>
+        <td>
+          Click on: REPORTING_METHOD_DROPDOWN
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.29</td>
+        <td>
+          Wait for clickable: REPORTING_METHOD_DROPDOWN (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.29</td>
+        <td>
+          Wait for visible: DIRECT_OPTION (max 5s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.29</td>
+        <td>
+          Click on: DIRECT_OPTION
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.29</td>
+        <td>
+          Wait for clickable: DIRECT_OPTION (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.29</td>
+        <td>
+          Click on: SAVE_BUTTON
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.29</td>
+        <td>
+          Wait for clickable: SAVE_BUTTON (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.29</td>
+        <td>
+          Wait for visible: SUCCESS_TOAST (max 10s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.30</td>
+        <td>
+          Supervisor: e
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:02:924</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="18"><span>Navigate to Employee List and verify updated details</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">com.test.tests.PimTest</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.31</td>
+        <td>
+          Wait for visible: EMPLOYEE_INFORMATION_HEADER (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.32</td>
+        <td>
+          Wait for visible: EMPLOYEE_ID_SEARCH_INPUT (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.32</td>
+        <td>
+          Entered Employee ID for search: affeba19e
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.32</td>
+        <td>
+          Click on: SEARCH_BUTTON
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.32</td>
+        <td>
+          Wait for clickable: SEARCH_BUTTON (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.33</td>
+        <td>
+          Wait for visible: THE_SEARCHED_ROW (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.33</td>
+        <td>
+          Wait for visible: TABLE_ROW (max 30s)
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:00:038</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="19"><span>Verify Job Title in table</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">com.test.tests.PimTest</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.33</td>
+        <td>
+          Get text from: TABLE_CELL_5
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.33</td>
+        <td>
+          Wait for visible: TABLE_CELL_5 (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.33</td>
+        <td>
+          Job Title in table: QA Engineer
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:00:031</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="20"><span>Verify Sub Unit in table</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">com.test.tests.PimTest</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.33</td>
+        <td>
+          Get text from: TABLE_CELL_7
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.33</td>
+        <td>
+          Wait for visible: TABLE_CELL_7 (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.33</td>
+        <td>
+          Sub Unit in table: Quality Assurance
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:00:024</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="21"><span>Verify Supervisor in table</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">com.test.tests.PimTest</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.33</td>
+        <td>
+          Get text from: TABLE_CELL_8
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.33</td>
+        <td>
+          Wait for visible: TABLE_CELL_8 (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.33</td>
+        <td>
+          Supervisor in table: yedghjb1 90jsnd
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:01:418</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="22"><span>Verify edited fields via API</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">com.test.tests.PimTest</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.33</td>
+        <td>
+          Calling API to verify edited employee data...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.33</td>
+        <td>
+          === API Request ===
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.33</td>
+        <td>
+          CURL: curl --location 'https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees?limit=50&offset=0&model=detailed&employeeId=affeba19e&includeEmployees=onlyCurrent&sortField=employee.firstName&sortOrder=ASC' \
+--header 'Accept: application/json' \
+--header 'Cookie: orangehrm=v04fsg5h01s7ur3bnpb1quai03'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.35</td>
+        <td>
+          API Response Status: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.35</td>
+        <td>
+          API Response Body: {"data":[{"empNumber":188,"lastName":"Jones","firstName":"Michael","middleName":"Ray","employeeId":"affeba19e","terminationId":null,"jobTitle":{"id":9,"title":"QA Engineer","isDeleted":false},"subunit":{"id":5,"name":"Quality Assurance"},"empStatus":{"id":1,"name":"Freelance"},"supervisors":[{"empNumber":136,"lastName":"90jsnd","firstName":"yedghjb1","middleName":"ru84"}]}],"meta":{"total":1},"rels":[]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.35</td>
+        <td>
+          === Verifying EDITED Employee Fields via API ===
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.35</td>
+        <td>
+            Job Title: QA Engineer (expected: QA Engineer) - ✓
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.35</td>
+        <td>
+            Sub Unit: Quality Assurance (expected: Quality Assurance) - ✓
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.35</td>
+        <td>
+            Supervisors: [{empNumber=136, lastName=90jsnd, firstName=yedghjb1, middleName=ru84}] (expected to contain: e) - ✓
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.35</td>
+        <td>
+            Employment Status: Freelance - ✓
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.35</td>
+        <td>
+          === End of Edit Verification ===
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:06:979</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="23"><span>Employee successfully edited and verified via UI and API</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">com.test.tests.PimTest</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.42</td>
+        <td>
+          Deleting Employee ID: affeba19e
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="24"
+          author=""
+          tag="com.test.tests.PimTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">deleteEmployeeAndVerify</p>
+            <p class="text-sm">
+              <span>09.46.42</span> / <span>00:01:45:691</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">deleteEmployeeAndVerify</h5>
+<span class='badge badge-success'>01.30.2026 09.46.42</span>
+<span class='badge badge-danger'>01.30.2026 09.48.27</span>
+<span class='badge badge-default'>00:01:45:691</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=24</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">com.test.tests.PimTest</span></div>
+<div class="m-t-10 m-l-5">Delete employee and verify deletion</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.42</td>
+        <td>
+          Test execution started
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>09.48.27</td>
+        <td>
+          <span class='badge white-text green'>TEST PASSED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+  <div class="mt-4">  <div class="accordion" role="tablist">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:14:123</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="25"><span>Login and navigate to Employee List</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">com.test.tests.PimTest</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.49</td>
+        <td>
+          Wait for present: LOGO (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.50</td>
+        <td>
+          Send keys 'Admin' to: USERNAME_INPUT
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.50</td>
+        <td>
+          Wait for visible: USERNAME_INPUT (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.51</td>
+        <td>
+          Send keys 'admin123' to: PASSWORD_INPUT
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.51</td>
+        <td>
+          Wait for visible: PASSWORD_INPUT (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.51</td>
+        <td>
+          Click on: LOGIN_BUTTON
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.51</td>
+        <td>
+          Wait for clickable: LOGIN_BUTTON (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.51</td>
+        <td>
+          Wait for present: DASHBOARD_HEADER (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.56</td>
+        <td>
+          Wait for visible: EMPLOYEE_INFORMATION_HEADER (max 30s)
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:01:604</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="26"><span>Search for employee by ID</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">com.test.tests.PimTest</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.57</td>
+        <td>
+          Wait for visible: EMPLOYEE_ID_SEARCH_INPUT (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.58</td>
+        <td>
+          Entered Employee ID for search: affeba19e
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.58</td>
+        <td>
+          Click on: SEARCH_BUTTON
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.58</td>
+        <td>
+          Wait for clickable: SEARCH_BUTTON (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.58</td>
+        <td>
+          Wait for visible: THE_SEARCHED_ROW (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.59</td>
+        <td>
+          Wait for visible: TABLE_ROW (max 30s)
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:00:129</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="27"><span>Click Delete and confirm</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">com.test.tests.PimTest</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.59</td>
+        <td>
+          Click on: DELETE_BUTTON
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.59</td>
+        <td>
+          Wait for clickable: DELETE_BUTTON (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.59</td>
+        <td>
+          Wait for visible: CONFIRM_DELETE_BUTTON (max 10s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.59</td>
+        <td>
+          Click on: CONFIRM_DELETE_BUTTON
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.59</td>
+        <td>
+          Wait for clickable: CONFIRM_DELETE_BUTTON (max 30s)
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:48:438</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="28"><span>Wait for both delete toasts (Success + No Records Found)</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">com.test.tests.PimTest</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.59</td>
+        <td>
+          === STEP 1: Wait for 'Successfully Deleted' toast to APPEAR ===
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.46.59</td>
+        <td>
+          Waiting for toast containing: 'successfully deleted' (max 15s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.47.00</td>
+        <td>
+          ✓ Toast found: successfully deleted
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.47.00</td>
+        <td>
+          === STEP 2: Wait for 'Successfully Deleted' toast to DISAPPEAR ===
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.47.00</td>
+        <td>
+          Waiting for toast to disappear (max 15s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.47.16</td>
+        <td>
+          ✓ Toast disappeared
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.47.16</td>
+        <td>
+          === STEP 3: Wait for 'No Records Found' toast to APPEAR ===
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.47.16</td>
+        <td>
+          Waiting for toast containing: 'no records found' (max 15s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.47.38</td>
+        <td>
+          Timeout waiting for toast containing: 'no records found' - continuing anyway
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.47.38</td>
+        <td>
+          === STEP 4: Wait for 'No Records Found' toast to DISAPPEAR ===
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.47.38</td>
+        <td>
+          Waiting for toast to disappear (max 15s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.47.48</td>
+        <td>
+          ✓ Toast disappeared
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.47.48</td>
+        <td>
+          === ALL TOASTS COMPLETED ===
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:01:479</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="29"><span>Verify deletion via API</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">com.test.tests.PimTest</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.47.48</td>
+        <td>
+          Calling API to verify employee deletion...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.47.48</td>
+        <td>
+          === API Request (Delete Verification) ===
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.47.48</td>
+        <td>
+          CURL: curl --location 'https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees?limit=50&offset=0&model=detailed&employeeId=affeba19e&includeEmployees=onlyCurrent&sortField=employee.firstName&sortOrder=ASC' \
+--header 'Accept: application/json' \
+--header 'Cookie: orangehrm=jhmacm58touq0lmr52u1etfdmm'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.47.49</td>
+        <td>
+          API Response Status: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.47.49</td>
+        <td>
+          API Response Body: {"data":[],"meta":{"total":0},"rels":[]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.47.49</td>
+        <td>
+          === Verifying DELETED Employee via API ===
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.47.49</td>
+        <td>
+            Data is empty: true - ✓
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.47.49</td>
+        <td>
+            Total is 0: true - ✓
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.47.49</td>
+        <td>
+          === End of Delete Verification ===
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:34:727</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="30"><span>Search again to verify employee no longer exists</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">com.test.tests.PimTest</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.47.49</td>
+        <td>
+          Searching for deleted employee to verify...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.47.49</td>
+        <td>
+          Wait for network idle (10000ms)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.47.59</td>
+        <td>
+          Wait for visible: EMPLOYEE_ID_SEARCH_INPUT (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.48.00</td>
+        <td>
+          Entered Employee ID for search: affeba19e
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.48.00</td>
+        <td>
+          Click on: SEARCH_BUTTON
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.48.00</td>
+        <td>
+          Wait for clickable: SEARCH_BUTTON (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.48.00</td>
+        <td>
+          Wait for visible: TOAST_MESSAGE (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.48.02</td>
+        <td>
+          Get text from: TOAST_MESSAGE
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.48.02</td>
+        <td>
+          Wait for visible: TOAST_MESSAGE (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.48.02</td>
+        <td>
+          Toast message: Invalid Parameter
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.48.02</td>
+        <td>
+          Wait for network idle (2000ms)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.48.24</td>
+        <td>
+          'No Records Found' toast shown: false
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.48.24</td>
+        <td>
+          No records in table: true
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:00:000</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="31"><span>Employee successfully deleted and verified via UI and API</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">com.test.tests.PimTest</span>            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:02:934</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="32"><span>Logout</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">com.test.tests.PimTest</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.48.24</td>
+        <td>
+          Click on: USER_DROPDOWN
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.48.24</td>
+        <td>
+          Wait for clickable: USER_DROPDOWN (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.48.24</td>
+        <td>
+          Wait for visible: LOGOUT_OPTION (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.48.24</td>
+        <td>
+          Click on: LOGOUT_OPTION
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.48.24</td>
+        <td>
+          Wait for clickable: LOGOUT_OPTION (max 30s)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>09.48.27</td>
+        <td>
+          Wait for present: LOGO (max 30s)
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>3</span>
+</span>
+<p class="name">com.test.tests.PimTest</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>com.test.tests.PimTest</h4>
+<span status="pass" class='badge log pass-bg'>3 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:44:47 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>addEmployeeAndVerifyInList</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:45:34 am</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>editEmployeeAndVerifyInList</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:46:42 am</td>
+<td>
+<a href="#" class="linked" test-id='24' id='24'>deleteEmployeeAndVerify</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Friday, January 30, 2026, 09:44 am (WIB)</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Friday, January 30, 2026, 09:48 am (WIB)</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>3</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>3</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>29</b> steps passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='1%'><b>3</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>267</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"addEmployeeAndVerifyInList":47.372,"editEmployeeAndVerifyInList":67.832,"deleteEmployeeAndVerify":105.691
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>com.test.tests.PimTest</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>OS</td>
+<td>Mac OS X</td>
+</tr>
+<tr>
+<td>Java Version</td>
+<td>23.0.2</td>
+</tr>
+<tr>
+<td>Browser</td>
+<td>Chrome</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 3,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 29,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 3,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 267
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
