@@ -1,0 +1,52 @@
+[
+  {
+    "testMethodName": "verifySuccessfulLogin",
+    "scenario": "Login with valid credentials",
+    "shouldRun": true,
+    "testData": {
+      "userName": "Admin",
+      "password": "admin123"
+    }
+  },
+  {
+    "testMethodName": "verifySuccessfulLoginThenLogout",
+    "scenario": "Login and logout flow",
+    "shouldRun": true,
+    "testData": {
+      "userName": "Admin",
+      "password": "admin123"
+    }
+  },
+  {
+    "testMethodName": "addEmployeeAndVerifyInList",
+    "scenario": "Add new employee with random name",
+    "shouldRun": true,
+    "testData": {
+      "userName": "Admin",
+      "password": "admin123"
+    }
+  },
+  {
+    "testMethodName": "editEmployeeAndVerifyInList",
+    "scenario": "Edit employee details and verify",
+    "shouldRun": true,
+    "testData": {
+      "userName": "Admin",
+      "password": "admin123",
+      "employeeListUrl": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+      "otherId": "OTH-001",
+      "licenseNumber": "LIC-12345",
+      "supervisorName": "e"
+    }
+  },
+  {
+    "testMethodName": "deleteEmployeeAndVerify",
+    "scenario": "Delete employee and verify deletion",
+    "shouldRun": true,
+    "testData": {
+      "userName": "Admin",
+      "password": "admin123",
+      "employeeListUrl": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList"
+    }
+  }
+]

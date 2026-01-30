@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Automation Suite" verbose="1">
+    
+    <listeners>
+        <listener class-name="com.test.listeners.ExtentReportListener"/>
+    </listeners>
+    
+    <test name="Login Page Tests">
+        <classes>
+            <class name="com.test.tests.LoginPageTest"/>
+        </classes>
+    </test>
+
+    <test name="PIM Tests">
+        <classes>
+            <class name="com.test.tests.PimTest"/>
+        </classes>
+    </test>
+    
+</suite>
